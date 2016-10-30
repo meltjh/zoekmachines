@@ -1,5 +1,6 @@
 Telegraaf zoekmachine
 
+De map "Telegraaf" bevat een paar bestanden ter illustratie van de zoekmachine.
 Eerst inlezen van data:
 1. In map 'Inlezen' python notebook openen genaamd "".
 2. Dit bestand runnen.
