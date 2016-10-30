@@ -1,0 +1,65 @@
+/* 
+Richard Olij (10833730) & Melissa Tjhia (10761071)
+
+This file is the style sheet for the bar charts. 
+*/
+
+/* The axes */
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #0c2c84;
+  shape-rendering: crispEdges;
+}
+
+.axis path {
+  display: none;
+}
+
+/* The chart */
+.chart {
+    margin-left:auto; 
+    margin-right:auto; 
+    display:block;
+    font-size: 10px;
+}
+
+.chart rect:hover{
+    fill: black;
+}
+
+/* Bars of the shown results */
+.bar {
+    fill: #41b6c4;
+} 
+
+/* The tooltip when hovering on the bar (from: http://bl.ocks.org/Caged/6476579) */
+.d3-tip {
+    font-size: 10px;
+    line-height: 1;
+    font-weight: bold;
+    padding: 5px;
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    border-radius: 2px;
+}
+
+/* Creates a small triangle extender for the tooltip */
+.d3-tip:after {
+    box-sizing: border-box;
+    display: inline;
+    font-size: 10px;
+    width: 100%;
+    line-height: 1;
+    color: rgba(0, 0, 0, 0.8);
+    content: "\25BC";
+    position: absolute;
+    text-align: center;
+}
+
+/* Style northward tooltips differently */
+.d3-tip.n:after {
+    margin: -1px 0 0 0;
+    top: 100%;
+    left: 0;
+}

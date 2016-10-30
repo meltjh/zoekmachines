@@ -1,0 +1,91 @@
+/* 
+Richard Olij (10833730) & Melissa Tjhia (10761071)
+
+This file is the style sheet for the result page. 
+*/
+
+/* Text with URL */
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Date of each result */
+.date {
+    font-size: 15px;
+}
+
+.dform {
+    display:inline-table;
+}
+
+/* Style for different divs */
+#dtop {
+    display: block;
+    height: 260px; /* Minimum height of the word-cloud needed */
+}
+
+#dtopleft {
+    float: center;
+    padding: 5px;
+    text-align: center;
+    margin: 40px;
+}
+
+#dtopright {
+    float:right;
+}
+
+#dtopsvg {
+    padding: 5px;
+    padding-top: 15px;
+}
+
+#dbottom {
+    margin-left: 50px;
+    display: block;
+    height: inherit;
+}
+
+#dbottomleft {
+    float: left;
+    padding: 5px;
+}
+
+#dbottomleft form {
+    float: left;
+    min-width: 85px;
+    margin-left: 5px;
+}
+
+#dresults {
+    margin: 5px;
+    margin-left: 380px;
+}
+
+#dresults a {
+    color: #225ea8;
+}
+
+/* Search bar */
+#search_bar {
+    width: 55%;
+}
+
+.formtitle {
+    color: #41b6c4;
+}
+
+/* Positioning of single result */
+.single_result {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+/* Positioning of word cloud */
+.wordcloud{
+    float:right;
+}
