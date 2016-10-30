@@ -10,4 +10,4 @@ Zoekmachine gebruiken:
 2. Bestand genaamd "telegraaf-zoekmachine.php" openen om te zoeken.  
 
 
-* Bulk indexing is niet gelukt, dus het indexeren is erg traag, daarom alleen een deel van de bestanden bijgevoegd.
+*Bulk indexing is niet gelukt, dus het indexeren is erg traag, daarom alleen een deel van de bestanden bijgevoegd.
